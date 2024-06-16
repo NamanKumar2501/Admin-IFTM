@@ -1,5 +1,6 @@
 package com.example.iftmadmin.fragment.quiz.basicComputerQuiz
 
+import android.annotation.SuppressLint
 import android.content.ContentValues
 import android.os.Bundle
 import android.util.Log
@@ -66,6 +67,7 @@ class BasicComputerQuizFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("SuspiciousIndentation")
     private fun addDataToFirebase(question: String, optionA: String, optionB: String, optionC: String, optionD: String, answer: String) {
 
 
